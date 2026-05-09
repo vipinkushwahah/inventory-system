@@ -69,6 +69,7 @@ export default function ProductList({
       setEditId(null);
 
       fetchProducts();
+    // eslint-disable-next-line no-unused-vars
     } catch (err) {
       alert("Update failed");
     }
