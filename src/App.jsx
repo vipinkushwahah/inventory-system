@@ -71,7 +71,7 @@ function App() {
       <h1>📦 Inventory App</h1>
 
       {/* 🔍 FILTER CARD */}
-      <div className="card" style={{ marginBottom: 20 }}>
+      {/* <div className="card" style={{ marginBottom: 20 }}>
         <input
           placeholder="Search product / name / category..."
           value={search}
@@ -105,7 +105,7 @@ function App() {
         >
           Clear
         </button>
-      </div>
+      </div> */}
 {/* 🔍 FILTER CARD */}
 <div className="card" style={{ marginBottom: 20 }}>
   <SearchPanel
