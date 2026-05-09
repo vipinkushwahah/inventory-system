@@ -1,13 +1,5 @@
-// import axios from "axios";
-
-// const API = axios.create({
-//   baseURL: "http://localhost:5001/api",
-// });
-
-// export default API;
-
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "http://localhost:5001/api",
+  baseURL: "https://inventory-system-backend-ifte.onrender.com/api",
 });
